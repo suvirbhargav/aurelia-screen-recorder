@@ -1,4 +1,4 @@
-# my-app2
+# aurelia 2 based screeen recorder
 
 This project is bootstrapped by [aurelia/new](https://github.com/aurelia/new).
 
