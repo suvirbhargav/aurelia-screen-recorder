@@ -8,25 +8,11 @@ var stopButtonStatus = true;
 
 //@inject(Element)
 export class MyApp {
-  //public clock: HTMLCanvasElement;
-
-  //sourceObject = HTMLMediaElement.srcObject;
-  //var stopButtonStatus = new Boolean(true);
-  //HTMLVideoElement theVideo;
 
   constructor(element) {
     this.element = element;
     this.stopButtonStatus = true;
   }
-
-  /*   constructor() {
-      //var recorder; // globally accessible
-
-      this.handleBodyClick = e => {
-        console.log("clicked");
-        console.log(e.target);
-      };
-    } */
 
   afterAttach() {
     //const theVideo = this.element.querySelector("video");
@@ -166,19 +152,10 @@ export class MyApp {
       localthis.stopButtonStatus = false;
 
       //this.btnStopRecording.disabled = false;
-      //this.element.querySelector("#searchInput") = "";
-      //this.stopButtonStatusCChanged();
+
     });
   };
 
-  /*   get stopButtonStatusCChanged() {
-    console.log("stopButtonStatusCChanged");
-    return true;
-  } */
-
-  /*   startRecording() {
-     
-    } */
 
   stopRecording = () => {
     console.log("clicked stop");
