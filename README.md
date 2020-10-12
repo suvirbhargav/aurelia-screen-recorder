@@ -1,6 +1,7 @@
 # aurelia 2 based screeen recorder
 
 This project is bootstrapped by [aurelia/new](https://github.com/aurelia/new).
+It was mostly a quick prototype version. works with basic screen recording. It uses recordRTC framework for recording screen.
 
 ## Start dev web server
 
